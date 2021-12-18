@@ -1,0 +1,53 @@
+.body-page {
+  margin: 0;
+  box-sizing: border-box;
+}
+.header-home {
+  display: flex;
+flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0;
+  background: url(../src/assets/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 50vh;
+}
+.header-home-left {
+  width: 60vw;
+  border: greenyellow 2px solid;
+}
+.victor-h1 {
+  margin: 0;
+  width: auto;
+  height: 70%;
+  margin-bottom: 0;
+  text-align: end;
+  font-size: 60px;
+  border: greenyellow 2px solid;
+}
+.header-home-subtitle{
+  margin: 0;
+  width: auto;
+  height: 15%;
+  text-align: end;
+  font-size: 2vw;
+  border: greenyellow 2px solid;
+}
+.header-home-phrase{
+  width: auto;
+  height: 15%;
+  margin: 0;
+  text-align: end;
+  font-size: 20px;
+  border: greenyellow 2px solid;
+}
+.header-home-right {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+}
+
+.img-victor {
+  max-height: 100%;
+}

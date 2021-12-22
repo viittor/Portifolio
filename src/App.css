@@ -90,7 +90,6 @@
   width: auto;
   height: auto;
   justify-content: center;
-  border: black 2px solid;
   background: #393333;
 }
 .container-links {
@@ -108,14 +107,14 @@
   color: white;
 }
 
-.link-h:hover{
+.link-h:hover {
   background: white;
   color: black;
   opacity: 80%;
   border-radius: 5px;
 }
 
-.link-h:hover p{
+.link-h:hover p {
   color: black;
 }
 
@@ -123,5 +122,46 @@
   width: 100px;
   height: 100px;
   padding: 10px;
+}
 
+/*Project Item*/
+
+.item {
+  max-width: 350px;
+  max-height: 400px;
+  max-height: auto;
+  border: black 2px solid;
+  border-radius: 10px;
+  list-style-type: none;
+}
+.thumb-item {
+  border-radius: 10px;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+/*Portifolio-Page*/
+.body{
+  background: white;
+}
+
+.main-port {
+  margin: auto;
+  height: 100vh;
+  padding: 20px;
+  align-content: center;
+  max-width: 1280px;
+  background: rgba(122, 112, 111, 0.288);
+}
+.main-port h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.port-items{
+  display: flex;
+  justify-content: center;
 }

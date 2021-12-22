@@ -1,8 +1,9 @@
 import React from "react";
 import Perfil from "../../assets/perfil.png";
 import "../../App.css";
+import { Link } from "react-router-dom";
 
-const HeaderHome = () => {
+const HomePage = () => {
   return (
     <div className="body-home">
       <div className="main">
@@ -15,7 +16,7 @@ const HeaderHome = () => {
             <h2>Fullstack Developer Student</h2>
           </div>
           <div className="home-button">
-            <button className="button-port">Ver meu portifólio</button>
+            <Link to="/Portifolio"><button className="button-port">Ver meu portifólio</button></Link>
           </div>
         </div>
         <div className="image-box">
@@ -26,4 +27,4 @@ const HeaderHome = () => {
   );
 };
 
-export default HeaderHome;
+export default HomePage;

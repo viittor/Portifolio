@@ -1,12 +1,11 @@
-import Home from "./pages/Home";
+import Router from './routes.jsx';
 
 
 function App() {
   return (
-    <div>
-     <Home />
-    </div>
-  );
+  <>
+    <Router/></>
+  )
 }
 
 export default App;

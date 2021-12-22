@@ -1,11 +1,11 @@
 import React from "react";
-import HeaderHome from "../../components/HeaderHome";
+import HomePage from "../../components/HomePage";
 
 const Home = () => {
 
     return(
         <div>
-            <HeaderHome></HeaderHome>
+            <HomePage/>
         </div>
 
     );

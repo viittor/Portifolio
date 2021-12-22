@@ -1,26 +1,25 @@
 import React from "react";
-import backHeaderHome from "../../assets/backHeaderHome.png";
+import Perfil from "../../assets/perfil.png";
 import "../../App.css";
 
 const HeaderHome = () => {
   return (
-    <div className="body-page">
-      <div className="header-home">
-        <div className="header-home-left">
-          <h1 className="victor-h1">VICTOR<br/>FERRANDO<br/>DA SILVA</h1>
-          <h2 className="header-home-subtitle">
-            SEJA BEM VINDO AO MEU PORTIFÓLIO
-          </h2>
-          <h4 className="header-home-phrase">
-            Veja um pouco dos meus conhecimentos na prática!
-          </h4>
+    <div className="body-home">
+      <div className="main">
+        <div className="text-box">
+          <div className="container-name">
+            <h1>
+              Olá, eu sou <br />
+              <strong>Victor!</strong>
+            </h1>
+            <h2>Fullstack Developer Student</h2>
+          </div>
+          <div className="home-button">
+            <button className="button-port">Ver meu portifólio</button>
+          </div>
         </div>
-        <div className="header-home-right">
-          <img
-            className="img-victor"
-            src={backHeaderHome}
-            alt="backHeaderHome"
-          />
+        <div className="image-box">
+          <img src={Perfil} alt="perfil" className="perfil" />
         </div>
       </div>
     </div>

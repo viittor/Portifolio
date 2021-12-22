@@ -1,53 +1,81 @@
-.body-page {
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+
+* {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
-}
-.header-home {
-  display: flex;
-flex-wrap: nowrap;
-  justify-content: center;
-  margin: 0;
-  background: url(../src/assets/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  height: 50vh;
-}
-.header-home-left {
-  width: 60vw;
-  border: greenyellow 2px solid;
-}
-.victor-h1 {
-  margin: 0;
-  width: auto;
-  height: 70%;
-  margin-bottom: 0;
-  text-align: end;
-  font-size: 60px;
-  border: greenyellow 2px solid;
-}
-.header-home-subtitle{
-  margin: 0;
-  width: auto;
-  height: 15%;
-  text-align: end;
-  font-size: 2vw;
-  border: greenyellow 2px solid;
-}
-.header-home-phrase{
-  width: auto;
-  height: 15%;
-  margin: 0;
-  text-align: end;
-  font-size: 20px;
-  border: greenyellow 2px solid;
-}
-.header-home-right {
-  width: 40vw;
-  display: flex;
-  justify-content: center;
+  font-family: "Quicksand", sans-serif;
 }
 
-.img-victor {
-  max-height: 100%;
+.body-home {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  backdrop-filter: blur(5px);
+}
+
+.text-box {
+  position: relative;
+  max-width: 600px;
+  padding: 50px;
+}
+
+.main .text-box h1 {
+  color: white;
+  font-size: 6em;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+.main .text-box h2 {
+  margin-left: 10px;
+  color: white;
+  font-size: 1.6em;
+  font-weight: 900;
+}
+
+.main .text-box button {
+  display: inline-block;
+  margin-top: 80px;
+  padding: 8px 60px;
+  background: #116cb6;
+  color: white;
+  border-radius: 40px;
+  border: none;
+  font-weight: 600;
+  font-size: 1.4em;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.main .text-box button:hover {
+  background: white;
+  color: black;
+  font-weight: bold;
+}
+
+.image-box {
+  padding: 50px;
+}
+
+.perfil {
+  height: auto;
+  width: 100%;
+  min-width: 250px;
+  max-width: 500px;
 }

@@ -3,12 +3,13 @@ import Project from "../Project";
 
 const PortifolioPage = () => {
   return (
-    <div className="body" >
+    <div className="body">
       <div className="main-port">
-        <h1>CONHEÇA MEUS PROJETOS:</h1>
+        <div>
+          <h1>CONHEÇA MEUS PROJETOS:</h1>
+        </div>
         <div className="port-items">
-
-        <Project/>
+          <Project />
         </div>
       </div>
     </div>

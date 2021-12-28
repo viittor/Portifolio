@@ -1,10 +1,9 @@
 import React from "react";
 
-
 const AboutPage = () => {
   return (
-    <div>
-      About
+    <div className="body">
+      <div className="main-port">About</div>
     </div>
   );
 };

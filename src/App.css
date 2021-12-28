@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 /*Homepage*/
 .body-home {
@@ -136,7 +137,6 @@
 }
 .thumb-item {
   border-radius: 10px;
-
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -145,23 +145,67 @@
 }
 
 /*Portifolio-Page*/
-.body{
-  background: white;
+.body {
+  background: #f4f5f7;
 }
 
 .main-port {
   margin: auto;
-  height: 100vh;
+  height: 90vh;
   padding: 20px;
   align-content: center;
   max-width: 1280px;
-  background: rgba(122, 112, 111, 0.288);
 }
-.main-port h1{
+.main-port h1 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-family: "Quicksand", sans-serif;
+  padding: 15px;
 }
-.port-items{
+.port-items {
   display: flex;
   justify-content: center;
+}
+
+/*Contact Page */
+
+.cont1-contact {
+  margin: 10px;
+  /* border: black 2px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 30vh;
+}
+.cont2-contact {
+  /* border: red 2px solid; */
+  width: 40%;
+  min-width: 400px;
+  padding: 10px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.cont2-contact:hover{
+  background: rgba(255, 255, 255, 0.685);
+  border-radius: 10px;
+}
+.div-icon {
+  /* border: solid 2px red; */
+  color: black;
+}
+
+.icon-c {
+  width: auto;
+  min-height: 50px;
+}
+
+.div-cont-text {
+  /* border: solid 2px red; */
+  color: black;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: "Quicksand", sans-serif;
 }

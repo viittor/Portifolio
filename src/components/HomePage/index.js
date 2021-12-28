@@ -16,7 +16,7 @@ const HomePage = () => {
             <h2>Fullstack Developer Student</h2>
           </div>
           <div className="home-button">
-            <Link to="/Portifolio"><button className="button-port">Ver meu portifólio</button></Link>
+            <Link to="/Portifolio"><button className="button-port">VER MEU PORTIFÓLIO</button></Link>
           </div>
         </div>
         <div className="image-box">

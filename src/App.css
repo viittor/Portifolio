@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -51,18 +51,20 @@
 }
 
 .main .text-box button {
+  width: 350px;
   display: inline-block;
   margin-top: 80px;
-  padding: 8px 60px;
-  background: #116cb6;
-  color: white;
-  border-radius: 40px;
+  padding: 4px 10px;
+  background: #0066ff;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
   border: none;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 1.4em;
   letter-spacing: 1px;
   text-decoration: none;
   text-align: center;
+  font-family: "Quicksand";
 }
 
 .main .text-box button:hover {
@@ -83,15 +85,18 @@
   max-width: 400px;
 }
 /* Pagina de Portifolio*/
-
 .main-header {
+  margin: 0;
+  background: #393333;
+}
+
+.main-header1 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   width: auto;
-  height: auto;
+  height: 10vh;
   justify-content: center;
-  background: #393333;
 }
 .container-links {
   font-family: "Quicksand", sans-serif;
@@ -125,36 +130,19 @@
   padding: 10px;
 }
 
-/*Project Item*/
-
-.item {
-  max-width: 350px;
-  max-height: 400px;
-  max-height: auto;
-  border: black 2px solid;
-  border-radius: 10px;
-  list-style-type: none;
-}
-.thumb-item {
-  border-radius: 10px;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: auto;
-}
-
 /*Portifolio-Page*/
-.body {
+body {
   background: #f4f5f7;
+  background-size: contain;
 }
 
 .main-port {
   margin: auto;
-  height: 90vh;
+  height: 83vh;
   padding: 20px;
   align-content: center;
-  max-width: 1280px;
+  max-width: auto;
+  overflow: auto;
 }
 .main-port h1 {
   text-align: center;
@@ -163,9 +151,45 @@
   padding: 15px;
 }
 .port-items {
+  padding: 10px 100px 10px 100px;
+  width: auto;
+}
+
+.container-list{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
+/*Project Item*/
+
+.item {
+  margin: 10px;
+  width: 350px;
+  min-height: 150px;
+  border: black 2px solid;
+  border-radius: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.item button{
+  border: 2px black solid;
+  width: 160px;
+  height: 50px;
+  
+}
+/* .thumb-item {
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  height: 120px;
+} */
 
 /*Contact Page */
 
@@ -176,7 +200,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  height: 30vh;
+  height: 25vh;
 }
 .cont2-contact {
   /* border: red 2px solid; */
@@ -188,7 +212,7 @@
   text-align: center;
 }
 
-.cont2-contact:hover{
+.cont2-contact:hover {
   background: rgba(255, 255, 255, 0.685);
   border-radius: 10px;
 }
@@ -208,4 +232,49 @@
   font-size: 1.5em;
   font-weight: 600;
   font-family: "Quicksand", sans-serif;
+}
+
+/* About page */
+
+.about-section {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.perfil-about {
+  height: auto;
+  width: 100%;
+  padding: 30px;
+  min-width: 100px;
+  min-height: 100px;
+  max-height: 300px;
+  max-width: 300px;
+  align-self: center;
+}
+.div-about {
+  width: 60%;
+  text-align: justify;
+}
+
+.div-about p {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+/* Footer */
+
+.main-footer {
+  margin: 0;
+  background: #393333;
+  height: 7vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-footer p {
+  margin-right: 10px;
 }

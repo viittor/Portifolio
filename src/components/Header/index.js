@@ -4,39 +4,36 @@ import Perfil from "../../assets/perfil.png";
 
 const Header = () => {
   return (
-    <div>
-      <div className="main-header">
+    <div className="main-header">
+      <div className="main-header1">
         {/* <img src={Perfil} alt="perfil-header" className="perfil-header" /> */}
         <div className="container-links">
-          <div className="link-h">
-            <Link style={{ textDecoration: "none", color: "white" }} to="/">
+          <Link style={{ textDecoration: "none", color: "white" }} to="/">
+            <div className="link-h">
               <p>HOME</p>
-            </Link>
-          </div>
-          <div className="link-h">
-            <Link
-              style={{ textDecoration: "none", color: "white" }}
-              to="/Portifolio"
-            >
+            </div>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="/Portifolio"
+          >
+            <div className="link-h">
               <p>PORTIFÓLIO</p>
-            </Link>
-          </div>
-          <div className="link-h">
-            <Link
-              style={{ textDecoration: "none", color: "white" }}
-              to="/About"
-            >
+            </div>
+          </Link>
+          <Link style={{ textDecoration: "none", color: "white" }} to="/About">
+            <div className="link-h">
               <p>SOBRE MIM</p>
-            </Link>
-          </div>
-          <div className="link-h">
-            <Link
-              style={{ textDecoration: "none", color: "white" }}
-              to="/Contact"
-            >
+            </div>
+          </Link>
+          <Link
+            style={{ textDecoration: "none", color: "white" }}
+            to="/Contact"
+          >
+            <div className="link-h">
               <p>CONTATO</p>
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

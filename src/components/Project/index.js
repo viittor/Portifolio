@@ -27,13 +27,13 @@ const Project = () => {
               <p>{item.description}</p>
             </div>
             <div className="btn-item">
-              <button className="btn-preview">
+              <button className="btn btn-secondary">
                 <a href={item.homepage} target="_blank" className="btn-preview">
                   Preview
                 </a>
               </button>
 
-              <button className="btn-repo">
+              <button className="btn btn-secondary">
                 <a href={item.html_url} target="_blank" className="btn-repo">
                   Repositório
                 </a>

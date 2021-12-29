@@ -57,7 +57,7 @@
   padding: 4px 10px;
   background: #0066ff;
   color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 20px;
   border: none;
   font-weight: bold;
   font-size: 1.4em;
@@ -84,33 +84,37 @@
   min-width: 250px;
   max-width: 400px;
 }
-/* Pagina de Portifolio*/
+/* Pagina de Portifolio #393333*/
 .main-header {
   margin: 0;
-  background: #393333;
+  background: #0c8adf;
+  height: auto;
+  min-height: 10vh;
+  padding-top: 20px;
 }
 
 .main-header1 {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   width: auto;
-  height: 10vh;
-  justify-content: center;
 }
 .container-links {
+  height: 10vh;
   font-family: "Quicksand", sans-serif;
-  padding: 10px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
 }
 .link-h {
-  padding: 10px;
-  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px;
   font-size: 1.1em;
   font-weight: 800;
   color: white;
+  text-align: center;
 }
 
 .link-h:hover {
@@ -155,7 +159,7 @@ body {
   width: auto;
 }
 
-.container-list{
+.container-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -163,24 +167,51 @@ body {
 /*Project Item*/
 
 .item {
-  margin: 10px;
+  margin: 20px;
   width: 350px;
-  min-height: 150px;
-  border: black 2px solid;
+  min-height: 250px;
+  max-height: 350px;
+  padding: 5px;
+  box-shadow: rgba(100, 100, 111, 0.671) 0px 7px 29px 0px;
   border-radius: 10px;
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
   text-align: center;
 }
+.name-item {
+  height: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-.item button{
-  border: 2px black solid;
+.name-item h3 {
+  font-size: 1.5em;
+}
+.item button {
+  margin: 4px;
   width: 160px;
-  height: 50px;
-  
+  height: 40px;
+}
+
+.item button:hover {
+  background: rgba(0, 255, 42, 0.767);
+  border: none;
+}
+
+.item button:hover a {
+  color: black;
+}
+
+.item a {
+  text-decoration: none;
+  color: white;
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 1.1em;
 }
 /* .thumb-item {
   border-radius: 10px;
@@ -195,7 +226,6 @@ body {
 
 .cont1-contact {
   margin: 10px;
-  /* border: black 2px solid; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -203,7 +233,6 @@ body {
   height: 25vh;
 }
 .cont2-contact {
-  /* border: red 2px solid; */
   width: 40%;
   min-width: 400px;
   padding: 10px;
@@ -211,13 +240,15 @@ body {
   margin-bottom: 2%;
   text-align: center;
 }
+.cont2-contact a {
+  text-decoration: none;
+}
 
 .cont2-contact:hover {
   background: rgba(255, 255, 255, 0.685);
   border-radius: 10px;
 }
 .div-icon {
-  /* border: solid 2px red; */
   color: black;
 }
 
@@ -227,7 +258,6 @@ body {
 }
 
 .div-cont-text {
-  /* border: solid 2px red; */
   color: black;
   font-size: 1.5em;
   font-weight: 600;
@@ -240,6 +270,7 @@ body {
   margin-top: 30px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
@@ -256,6 +287,7 @@ body {
 .div-about {
   width: 60%;
   text-align: justify;
+  align-self: center;
 }
 
 .div-about p {
@@ -267,8 +299,9 @@ body {
 
 .main-footer {
   margin: 0;
-  background: #393333;
-  height: 7vh;
+  background: #0c8adf;
+  height: auto;
+  min-height: 7vh;
   color: white;
   display: flex;
   justify-content: center;
@@ -276,5 +309,7 @@ body {
 }
 
 .main-footer p {
+  margin-top: 5px;
   margin-right: 10px;
+  text-align: center;
 }

@@ -33,9 +33,6 @@ const ContactPage = () => {
               <div className="div-cont-text">+55 (42) 9 9952-1151</div>
             </a>
           </div>
-        </div>
-
-        <div className="cont1-contact">
           <div className="cont2-contact">
             <a
               href="https://github.com/viittor"

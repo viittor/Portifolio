@@ -5,8 +5,10 @@ const Footer = () =>{
 
     return(
         <div className="main-footer">
-            <p>Desenvolvido por Victor Ferrando - 2022 </p>
+            <p>Desenvolvido por Victor Ferrando - 2022
             <BiCopyright/>
+
+            </p>
         </div>
     );
 };

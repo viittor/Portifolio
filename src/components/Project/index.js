@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import idea from "../../assets/idea.png";
 
 const Project = () => {
   const [projeto, setProjeto] = useState([]);
@@ -14,7 +13,7 @@ const Project = () => {
     <div>
       <ul className="container-list">
         {projeto.map((item) => (
-          <li className="item">
+          <li className="item" key={item.id}>
             {/* <div>
               <img
                 src={idea}
@@ -28,13 +27,13 @@ const Project = () => {
             </div>
             <div className="btn-item">
               <button className="btn btn-secondary">
-                <a href={item.homepage} target="_blank" className="btn-preview">
+                <a href={item.homepage} target="_blank" rel="noreferrer" className="btn-preview">
                   Preview
                 </a>
               </button>
 
               <button className="btn btn-secondary">
-                <a href={item.html_url} target="_blank" className="btn-repo">
+                <a href={item.html_url} target="_blank" rel="noreferrer" className="btn-repo">
                   Repositório
                 </a>
               </button>

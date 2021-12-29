@@ -24,7 +24,7 @@ const ContactPage = () => {
           <div className="cont2-contact">
             <a
               href="https://api.whatsapp.com/send?phone=5542999521151"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               title="Conversar pelo WhatsApp"
             >
               <div className="div-icon">
@@ -36,7 +36,7 @@ const ContactPage = () => {
           <div className="cont2-contact">
             <a
               href="https://github.com/viittor"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               title="Acessar GitHub"
             >
               <div className="div-icon">
@@ -48,7 +48,7 @@ const ContactPage = () => {
           <div className="cont2-contact">
             <a
               href="https://www.linkedin.com/in/victorferrandosilva/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
               title="Acessar Linkedin"
             >
               <div className="div-icon">

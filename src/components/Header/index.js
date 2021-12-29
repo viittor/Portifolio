@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Perfil from "../../assets/perfil.png";
 
 const Header = () => {
   return (
